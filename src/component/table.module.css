@@ -1,0 +1,22 @@
+.table{
+    /* text-align: center; */
+    display: inline-grid;;
+    border: groove;
+    margin: 10px 70px 20px 120px;
+    border-radius: 10px;
+    width: 1090px;
+}
+.thr{
+    background-color: #f4f2ff;
+}
+.tbody{
+    
+    border-bottom: solid 1px;
+}
+.thd{
+    border-bottom: solid 1px; 
+}
+@media only screen and (max-width: 600px) {
+    .table {margin: 10px 5px 20px 5px;}
+    .table {width: 375px;}
+}

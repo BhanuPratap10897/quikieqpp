@@ -1,0 +1,36 @@
+.container {
+
+    height: 10rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem;
+    background: #f1f1f1;
+}
+
+.container img {
+	width: 3rem;
+	height: 3rem;
+}
+
+.boxs{
+    display: inline-block;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.usd{
+    text-align: center;
+}
+@media only screen and (min-width: 600px) {
+    .boxs {margin-left: 50px;}
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {width: 16rem;}
+  }

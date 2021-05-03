@@ -1,0 +1,16 @@
+.headerbox{
+    display: flex;
+	justify-content: space-between;
+	background: #f1f1f1;
+	padding: 1rem;
+	font-size: 1.5rem;
+    height: 25px;
+    background-color: #35496b;
+    align-items: center;
+}
+.img{
+    height: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .headerbox {justify-content: center;}
+}
